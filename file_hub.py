@@ -2,7 +2,7 @@ from dj_equipment import Artist,Album,Track
 from hubs import BaseSonicHub
 from player import menu
 
-#TODO implement FileBasedSonicHub 
+#Implemented
 
 class FileBasedSonicHub(BaseSonicHub):
     '''Reads music files and stores them in a sonic hub!'''
